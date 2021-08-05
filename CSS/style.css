@@ -4,7 +4,6 @@
 }
 
 body{
-    background-color: rgb(24, 240, 24);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -14,15 +13,14 @@ body{
     left: 0;
     width: 70px;
     height: 100vh;
-    background-color:green
-    ;
+    background-color:green;
     border-top-right-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
     white-space: nowrap;
     box-shadow: 0px 0px 20px #d4d4d4;
     transition: .3s ease;
-    background-image: url(./Ofallon.jpg);
+    background-image: green;
 }
 
 .main-menu:hover{
@@ -36,4 +34,8 @@ body{
 .main-menu .menu-item:hover{
     background-color: blueviolet;
     cursor: pointer;
+}
+
+.main-portfolio{
+    background-image: url(manyplants.jpg);
 }
