@@ -1,13 +1,12 @@
-*, body{
+* {
     margin: 0;
     padding: 0;
 }
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-image:url(/CSS/Ofallon.jpg);
-    background-size: cover;
-    back
+    /* background-image:url(/CSS/Ofallon.jpg);
+    background-size: cover; */
 
 }
 
@@ -17,7 +16,7 @@ body{
     left: 0;
     width: 70px;
     height: 100vh;
-    background-color:green;
+    background-color: green;
     border-top-right-radius: 10px;
     border-top-right-radius: 10px;
     overflow: hidden;
@@ -39,3 +38,7 @@ body{
     cursor: pointer;
 }
 
+.port {
+    background-size: cover;
+    background-image: url(/CSS/manyplants.jpg);
+}
