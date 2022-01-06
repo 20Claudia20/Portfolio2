@@ -14,3 +14,9 @@
   .myimage {
     width: 35%;
   }
+
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
