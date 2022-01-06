@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  body {
+      background-color: #c1deba;
+      color: #294f20;
+      font-family: "Lobster" sans-serif;
+  }
+
+  .myimage {
+    width: 35%;
+  }
