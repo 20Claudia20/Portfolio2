@@ -88,3 +88,8 @@ p{
 .socials {
   margin: 10px;
 }
+
+.subsection {
+  display: flex;
+  justify-content: space-around;
+}
