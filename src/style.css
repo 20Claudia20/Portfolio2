@@ -1,7 +1,6 @@
 section {
   background-color: pink;
-  border: solid black 2pxs;
-  
+  border: 1 px solid black ;
 }
 
 .hero {
@@ -108,4 +107,14 @@ p{
 .headshot-container {
   display: flex;
   align-items: center;
+}
+
+.project-icon {
+  width: 200px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.projects-section {
+  display: flex;
 }
