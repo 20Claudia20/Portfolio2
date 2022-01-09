@@ -1,6 +1,6 @@
 section {
   background-color: pink;
-  border: 1 px solid black ;
+
 }
 
 .hero {
@@ -38,13 +38,18 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 p{
   margin: 0;
   font-size: 30px;
   font-weight: 300;
+}
+
+.subtext {
+ font-size: 15px; 
+ font-weight: 300px;
 }
 
 .hero-area {
@@ -120,7 +125,7 @@ p{
   width: 300px;
   height: 500px;
   /* border: 1px solid black; */
-  box-shadow: 5px 5px 20px;
+  box-shadow: 5px 5px 20px gray;
 }
 
 .projects-section {
