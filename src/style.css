@@ -136,6 +136,13 @@ p{
   justify-content: space-around;
 }
 
+@media only screen and (max-width:1000px) {
+  .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .project-image {
   margin-top: 25px;
   margin-bottom: 50px;
@@ -158,3 +165,11 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/* .hamburger {
+  border: 0;
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+} */
+
