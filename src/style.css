@@ -166,18 +166,36 @@ a {
   color: white;
 }
 
-/* .hamburger {
+.hamburger {
     display:flex;
-} */
+}  
 
-/* @media only screen and (max-width:1000px) {
+.hamburger:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width:1000px) {
   .hamburger {
     border: 0;
     background-color: transparent;
     color: white;
     font-size: 30px;
+    /* align-self: flex-end; */
 }
 .ul {
   display:none;
 }
-} */
+
+nav {
+ display: flex;
+ flex-direction: column-reverse;
+}
+
+.logo {
+  display: none;
+}
+
+ul.show {
+  display: block;
+}
+}
