@@ -5,6 +5,9 @@ section {
 
 .hero {
   background-image: url('colorado.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   color: white;
   font-size: 40px;
@@ -20,7 +23,7 @@ footer{
 
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 ul {
