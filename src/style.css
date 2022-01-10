@@ -184,11 +184,14 @@ a {
 }
 .ul {
   display:none;
+  background-color: aquamarine;
+  margin: 0px;
 }
 
 nav {
  display: flex;
  flex-direction: column-reverse;
+ background-color: aquamarine;
 }
 
 .logo {
