@@ -4,7 +4,7 @@ section {
 }
 
 .hero {
-  background-image: url('/src/colorado.jpg');
+  background-image: url('colorado.jpg');
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-attachment: fixed;
