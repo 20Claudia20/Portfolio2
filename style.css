@@ -1,7 +1,9 @@
 section {
-  background-color: #023B1F;
+  background-color: rgb(181, 218, 243);
 
 }
+/* 
+73,73,167 */
 
 footer{
   /* height: 500px; */
@@ -50,13 +52,12 @@ p{
 }
 
 .hero {
-  /* background-image: url('DeskArea.jpg'); */
-  background-image: black;
+  /* background-image: url('skyline.jpg'); */
+  background-color:  black;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* filter: grayscale(50%); */
-  height: 100vh;
+  height:100vh;
   color: white;
   font-size: 40px;
 }
