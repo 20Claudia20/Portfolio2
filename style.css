@@ -52,8 +52,8 @@ p{
 }
 
 .hero {
-  /* background-image: url('skyline.jpg'); */
-  background-color:  black;
+  background-image: url('skyline.jpg');
+  /* background-color:  black; */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -105,6 +105,7 @@ p{
 
 .socials {
   margin: 20px;
+  font-size: 35px ;
 }
 
 .sub-section {
@@ -129,6 +130,8 @@ p{
   display: flex;
   align-items: center;
 }
+
+
 
 .project-icon {
   width: 300px;
