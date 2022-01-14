@@ -1,5 +1,5 @@
 section {
-  background-color: pink;
+  background-color: #023B1F;
 
 }
 
@@ -50,11 +50,12 @@ p{
 }
 
 .hero {
-  background-image: url('RiverImage.jpg');
+  /* background-image: url('DeskArea.jpg'); */
+  background-image: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* filter: grayscale(100%); */
+  /* filter: grayscale(50%); */
   height: 100vh;
   color: white;
   font-size: 40px;
