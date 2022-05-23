@@ -1,20 +1,25 @@
 section {
-  /* background-color: rgb(181, 218, 243); */
-  background-color: rgb(35, 32, 67);
+  /* background-image: url("milkyway.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; */
+  color: white;
+  background-color: black;
 
 }
-/* 
-73,73,167 */
 
-footer{
+footer {
   height: 200px;
-  background-color: black;
   color: white;
   text-align: center;
   padding: 80px;
+  background-image: url("milkyway.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: flex-end;
 }
@@ -40,25 +45,25 @@ h2 {
   font-size: 50px;
 }
 
-p{
+p {
   margin: 0;
   font-size: 30px;
   font-weight: 300;
 }
 
 .subtext {
- font-size: 15px; 
- font-weight: 300px;
- /* margin-top: 30px; */
+  font-size: 15px;
+  font-weight: 300px;
+  /* margin-top: 30px; */
 }
 
 .hero {
-  /* background-color: black; */
   background-image: url("milkyway.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height:100vh;
+
+  height: 100vh;
   color: white;
   font-size: 40px;
 }
@@ -78,7 +83,7 @@ p{
 .button {
   width: 200px;
   height: 55px;
-  background-color:   rgb(119, 73, 180);
+  background-color: rgb(119, 73, 180);
   border-radius: 30px;
   text-align: center;
   padding-top: 5px;
@@ -91,23 +96,22 @@ p{
 }
 
 .button:active {
-  background-color: cadetblue;
+  background-color: black;
   color: blue;
 }
 
-.contacts {
- padding-bottom: 200px;
-}
+
 
 .logo {
   height: 80px;
   margin: 30px;
-  
+
 }
 
 .socials {
   margin: 20px;
-  font-size: 35px ;
+  font-size: 35px;
+  
 }
 
 .sub-section {
@@ -169,7 +173,7 @@ hr {
 
 .project-link {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
 }
 
 a {
@@ -178,18 +182,6 @@ a {
 }
 
 
-/* .information {
-  color: white;
-} */
-
-/* .hamburger {
-    display:flex;
-}  
-
-.hamburger:focus {
-  outline: 0;
-} */
-
 @media only screen and (max-width:1000px) {
   .hamburger {
     border: 0;
@@ -197,26 +189,25 @@ a {
     color: white;
     font-size: 30px;
     /* align-self: flex-end; */
-}
-.ul {
-  display:none;
-  background-color: aquamarine;
-  margin: 0px;
-}
+  }
 
-nav {
- display: flex;
- flex-direction: column-reverse;
- background-color: navy;
-}
+  .ul {
+    display: none;
+    background-color: aquamarine;
+    margin: 0px;
+  }
 
-.logo {
-  display: none;
-}
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: navy;
+  }
 
-ul.show {
-  display: block;
-}
-}
+  .logo {
+    display: none;
+  }
 
-
+  ul.show {
+    display: block;
+  }
+}
