@@ -1,6 +1,6 @@
 section {
   /* background-color: rgb(181, 218, 243); */
-  background-color: rgb(119, 73, 180);
+  background-color: rgb(35, 32, 67);
 
 }
 /* 
@@ -53,8 +53,8 @@ p{
 }
 
 .hero {
-  
-  background-image: url('skyline.jpg');  /*# A0D9AE*/
+  /* background-color: black; */
+  background-image: url("milkyway.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
