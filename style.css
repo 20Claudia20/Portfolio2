@@ -152,6 +152,12 @@ p {
   justify-content: space-around;
 }
 
+.skills {
+  padding-top: 45px;
+padding-bottom: 65px;
+
+}
+
 @media only screen and (max-width:1000px) {
   .projects-section {
     display: flex;
@@ -200,7 +206,7 @@ a {
   nav {
     display: flex;
     flex-direction: column-reverse;
-    background-color: navy;
+    background-color: black;
   }
 
   .logo {
