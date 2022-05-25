@@ -72,6 +72,10 @@ ul {
   background-color: rgb(50, 50, 150);
 }
 
+.contacts {
+ size: 30%;
+}
+
 .headshot {
   width: 300px;
   border-radius: 150px;
@@ -139,7 +143,7 @@ ul {
 
 .socials {
   margin: 20px;
-  font-size: 35px;
+  font-size: 20px;
 }
 
 .subtext {
