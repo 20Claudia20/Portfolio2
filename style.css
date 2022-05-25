@@ -133,13 +133,13 @@ ul {
 
 .skills {
   padding-top: 45px;
-padding-bottom: 65px;
-
+  padding-bottom: 65px;
+  text-align: center;
 }
 
 .socials {
   margin: 20px;
-  font-size: 35px; 
+  font-size: 35px;
 }
 
 .subtext {
@@ -155,7 +155,6 @@ padding-bottom: 65px;
 }
 
 
-
 @media only screen and (max-width:1000px) {
   .projects-section {
     display: flex;
@@ -163,28 +162,28 @@ padding-bottom: 65px;
   }
 }
 
-  .project-image {
-    margin-top: 45px;
-    margin-bottom: 75px;
-    width: 250px;
-    border-radius: 150px;
-  }
-  
-  hr {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+.project-image {
+  margin-top: 45px;
+  margin-bottom: 75px;
+  width: 250px;
+  border-radius: 150px;
+}
 
-  .project-link {
-    text-decoration: none;
-    color: whitesmoke;
-  }
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
+.project-link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (max-width:1000px) {
   .hamburger {
     border: 0;
